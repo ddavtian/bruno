@@ -23,6 +23,7 @@ throttles and limits quite quickly.
 
 ```
 bruno -h
+
 NAME:
    Bruno - GitHub N Repos Demo
 
@@ -140,4 +141,12 @@ Num		Repo			Count
 10.		governator		4.91 %
 ----		-----			-----
 ```
+### Manual Tests
 
+* Test 1: Test to ensure an error is displayed if `GH_TOKEN` is not exported as an environment variable.
+* Test 2: Test usage to ensure the user is passing in proper set of arguments for each of the commands.
+* Test 3: Test with an organization that has a small set of repos.
+* Test 4: Test with an organization that has a large set of repos.
+* Test 5: Test to ensure stdout formatting is proper.
+* Test 6: Test each of the supported commands, stars, forks, pulls and contributions.
+* Test 7: Test each of the supported short hand commands, s, f, p and c.
